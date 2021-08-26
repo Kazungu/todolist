@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'base.apps.BaseConfig',
 ]
 
 MIDDLEWARE = [
@@ -83,8 +84,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'todo_list',
-        'USER': 'kazungu',
-        'PASSWORD': 'Hothan.12',
+        'USER': 'kiarie',
+        'PASSWORD': 'Twi8-oy',
         'HOST': 'localhost',
         'POST': '',
     }
