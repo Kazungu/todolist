@@ -75,32 +75,14 @@ WSGI_APPLICATION = 'todo_list.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-#DATABASES = {
- #   'default': {
-  #      'ENGINE': 'django.db.backends.sqlite3',
-   #     'NAME': BASE_DIR / 'db.sqlite3',
-    #}
-#}
-#DATABASES = {
- #   'default': {
-  #      'ENGINE': 'django.db.backends.postgresql_psycopg2',
-   #     'NAME': 'todo_list',
-    #    'USER': 'kiarie',
-     #   'PASSWORD': 'Twi8-oy',
-      #  'HOST': 'localhost',
-       # 'POST': '',
-    #}
-#}
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dcuraoccp5nfu1',
-        'USER': 'olkneljotkmarj',
-        'PASSWORD': 'cdb2021ca5cdab5f007f01807653b29eb838a0d8ac6d11c6509dda99d1f36d67',
-        'HOST': 'ec2-54-217-195-234.eu-west-1.compute.amazonaws.com',
-        'POST': '',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+
 
 
 # Password validation
